@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.StringCallback;
+import com.zhy.http.okhttp.utils.ImageUtils;
 
 import okhttp3.Call;
 
@@ -40,5 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
+
+        ImageUtils.stringLength("aaa");
     }
 }
